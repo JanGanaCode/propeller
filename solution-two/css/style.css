@@ -1,0 +1,73 @@
+body {
+  font-size: 16px;
+  padding: 50px;
+  background: #fff; }
+
+a:focus,
+a:hover,
+a:visited {
+  color: white; }
+
+.wrapper {
+  width: 760px; }
+  .wrapper .title-box {
+    margin: 0 auto;
+    max-width: 760px;
+    position: relative;
+    margin-bottom: 3px;
+    background-color: #9e38b0;
+    cursor: pointer;
+    border-bottom: 3px solid #6f277d;
+    transition: 0.4s;
+    color: white; }
+    .wrapper .title-box:hover {
+      background-color: #6844b7;
+      border-bottom: 3px solid #4c3185; }
+    .wrapper .title-box .title-text {
+      margin: 0; }
+  .wrapper .panel {
+    border: none !important; }
+  .wrapper .panel-heading {
+    padding: 0;
+    border: 0; }
+  .wrapper .title-text > a,
+  .wrapper .title-text > a:active {
+    display: block;
+    text-align: left;
+    font-size: 1.7em;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    color: #fff;
+    padding: 35px 19px;
+    letter-spacing: 1px; }
+    .wrapper .title-text > a:hover,
+    .wrapper .title-text > a:active:hover {
+      color: white;
+      text-decoration: none; }
+  .wrapper .title-box a:before {
+    font-family: "Glyphicons Halflings";
+    content: "\e114";
+    float: right;
+    font-weight: lighter;
+    transition: all 0.5s; }
+  .wrapper .title-box.active a:before {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    transform: rotate(180deg); }
+  .wrapper .title-text-content {
+    font-family: "Roboto", sans-serif;
+    font-size: 0.95em;
+    color: #929292;
+    font-weight: 300;
+    overflow: hidden;
+    border: 2px solid #ebebeb;
+    border-top: none;
+    margin-top: -2px;
+    padding: 30px 20px; }
+
+@media (max-width: 767px) {
+  .wrapper {
+    width: 100%; } }
+
+/*# sourceMappingURL=style.css.map */

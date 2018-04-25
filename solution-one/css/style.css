@@ -2,48 +2,51 @@ body {
   padding-top: 50px;
   font-size: 16px; }
 
-.wrapper .section-box {
-  margin: 0 auto;
-  max-width: 760px;
-  position: relative;
-  margin-bottom: 3px; }
-  .wrapper .section-box .title {
-    background-color: #9e38b0;
-    cursor: pointer;
-    border-bottom: 5px solid #6f277d;
-    transition: 0.4s; }
-    .wrapper .section-box .title .title-text {
-      text-align: left;
-      font-size: 1.5em;
+.wrapper {
+  max-width: 90vw;
+  margin: 0 auto; }
+  .wrapper .section-box {
+    margin: 0 auto;
+    max-width: 760px;
+    position: relative;
+    margin-bottom: 3px; }
+    .wrapper .section-box .title {
+      background-color: #9e38b0;
+      cursor: pointer;
+      border-bottom: 5px solid #6f277d;
+      transition: 0.4s; }
+      .wrapper .section-box .title .title-text {
+        text-align: left;
+        font-size: 1.5em;
+        font-family: "Roboto", sans-serif;
+        font-style: italic;
+        font-weight: 700;
+        color: #fff;
+        padding: 38px 19px;
+        letter-spacing: 1px;
+        margin: 0; }
+      .wrapper .section-box .title img {
+        position: absolute;
+        right: 20px;
+        top: 40px;
+        transform: rotate(180deg); }
+      .wrapper .section-box .title:hover {
+        background-color: #6844b7;
+        border-bottom: 5px solid #4c3185; }
+    .wrapper .section-box .content {
       font-family: "Roboto", sans-serif;
-      font-style: italic;
-      font-weight: 700;
-      color: #fff;
-      padding: 38px 19px;
-      letter-spacing: 1px;
-      margin: 0; }
-    .wrapper .section-box .title img {
-      position: absolute;
-      right: 20px;
-      top: 40px;
-      transform: rotate(180deg); }
-    .wrapper .section-box .title:hover {
-      background-color: #6844b7;
-      border-bottom: 5px solid #4c3185; }
-  .wrapper .section-box .content {
-    font-family: "Roboto", sans-serif;
-    font-size: 0.95em;
-    color: #929292;
-    font-weight: 300;
-    background-color: white;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-    border: 2px solid #ebebeb;
-    border-top: none;
-    margin-top: -2px; }
-    .wrapper .section-box .content p {
-      padding: 30px 20px;
-      margin: 0; }
+      font-size: 0.95em;
+      color: #929292;
+      font-weight: 300;
+      background-color: white;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.2s ease-out;
+      border: 2px solid #ebebeb;
+      border-top: none;
+      margin-top: -2px; }
+      .wrapper .section-box .content p {
+        padding: 30px 20px;
+        margin: 0; }
 
 /*# sourceMappingURL=style.css.map */
